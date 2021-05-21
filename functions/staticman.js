@@ -18,7 +18,7 @@ exports.handler = (event, context, callback) => {
     sites: {
       [repo]: {
         allowedFields: ["name", "message", "post"],
-        branch: "master",
+        branch: "main",
         commitMessage: "Add comment by {fields.name}",
         filename: "entry{@timestamp}",
         format: "json",
