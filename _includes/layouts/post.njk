@@ -8,6 +8,8 @@ templateClass: tmpl-post
 
 <hr>
 <h2>Comments</h2>
+ {% set thing=staticmanEntries | length %}
+  <script> console.log("comments " + {{ thing }})</script>
 
 {%- if (staticmanEntries | length) > 0 %}
   {%- for entry in staticmanEntries | reverse %}

@@ -75,7 +75,6 @@ module.exports = function(eleventyConfig) {
         .map(comment => ({...comment, date: comment.date && new Date(comment.date)}));
 
       item.data.staticmanEntries = comments;
-
       postsWithComments.add(item);
     });
 

@@ -5,4 +5,4 @@ date: 2021-05-23
 tags: second-tag
 layout: layouts/post.njk
 ---
-Zugegeben, ein gemeiner Plan. Aber was blieb uns übrig.
+Zugegeben, ein gemeiner Plan. Aber was blieb uns übrig. Geht noch was?

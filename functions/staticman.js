@@ -13,6 +13,7 @@ exports.handler = (event, context, callback) => {
     repository,
   };
 
+  
   const config = {
     origin: event.headers.origin,
     sites: {
